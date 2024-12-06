@@ -1,0 +1,132 @@
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+
+  min-height: 100vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #E4F0D0;
+  font-family: sans-serif;
+}
+
+
+
+h1 {
+  /* font-size: 3.2em;
+  line-height: 1.1; */
+  color: tomato;
+
+}
+
+h2 {
+  font-size: 35px;
+}
+header {
+  padding: 1 rem 2rem;
+}
+
+main {
+  padding: 1rem 2rem;
+}
+
+footer {
+  padding: 1rem 2rem;
+}
+
+
+
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.main-nav a {
+  color: gray;
+  text-decoration: underline;
+  padding: 10px 15px;
+}
+
+.footer-nav a {
+  color: tomato;
+
+  padding: 10px;
+}
+
+
+nav a:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+html {
+  border-left: 5px solid lightgray;
+}
+
+.continues {
+  color: tomato;
+  font-weight: bold; 
+  text-align: right; 
+  display: block;  
+  margin-top: 10px; 
+}
+
+article {
+  margin-bottom: 4rem; 
+  border-bottom: 1px solid gray; 
+  padding-bottom: 2rem; 
+}
+
+article p::first-letter {
+  color: gray; 
+  font-size: 3rem; 
+  font-weight: bold; 
+  float: left; 
+  margin-right: 0.2rem; 
+}
+
+p.footnote {
+  color: gray;
+  text-align: center;
+  font-size: 12px;
+}
+
+
+h1.heading {
+  font-size: 60px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h3.saying {
+  font-size: 25px;
+
+}
+    
