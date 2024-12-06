@@ -1,34 +1,13 @@
-/* :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-} */
-
-/* a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-} */
-
-/* a:hover {
-  color: #535bf2;
-} */
-
 body {
   min-height: 100vh;
   width: 90%;
   margin: 0 auto;
   background-color: #EFF7F6;
+  padding: 80px;
   font-family: sans-serif;
+}
+html {
+  border-left: 5px solid lightgray;
 }
 
 h1.heading {
@@ -41,23 +20,14 @@ h3.saying {
   font-size: 25px;
   font-style: italic;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
 }
 
 h2 {
   font-size: 33px;
 }
 
-header {
+header, main, footer {
   padding: 1 rem 2rem;
-}
-
-main {
-  padding: 1rem 2rem;
-}
-
-footer {
-  padding: 1rem 2rem;
 }
 
 nav ul {
@@ -66,7 +36,7 @@ nav ul {
   margin: 0;
   display: flex;
   justify-content: space-between;
-
+  margin-bottom: 50px;
 }
 
 nav .main-nav a {
@@ -89,8 +59,6 @@ nav a:hover {
 html {
   border-left: 5px solid lightgray;
 }
-
-
 
 article {
   margin-bottom: 4rem;
@@ -115,5 +83,6 @@ article p::first-letter {
 p.footnote {
   color: gray;
   text-align: center;
-  font-size: 12px;
+  font-size: 13px;
+  margin-top: 40px;
 }
